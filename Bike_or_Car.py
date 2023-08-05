@@ -22,9 +22,7 @@ train_datagen=ImageDataGenerator(rescale=1./255, shear_range=0.2, zoom_range=0.2
                                  horizontal_flip=True)
 test_datagen=ImageDataGenerator(rescale=1./255)
 
-training_set=train_datagen.flow_from_directory('C:/Users/jaisi/Documents/Jai/Programs/College/CNN/dataset/Train',
-                                               target_size=(64,64), batch_size=20,
-                                               class_mode='binary')
+training_set=train_datagen.flow_from_directory('.../dataset/Train', target_size=(64,64), batch_size=20, class_mode='binary')
 
 test_set=test_datagen.flow_from_directory('C:/Users/jaisi/Documents/Jai/Programs/College/CNN/dataset/Test',
                                                target_size=(64,64), batch_size=20,
