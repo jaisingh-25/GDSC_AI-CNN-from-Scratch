@@ -34,7 +34,7 @@ classifier.fit(training_set, steps_per_epoch=10, epochs=10, validation_data=test
 # Classification with CNN and prediction
 import numpy as np
 from tensorflow.keras.preprocessing import image
-test_image = image.load_img('C:/Users/jaisi/Documents/Jai/Programs/College/CNN/dataset/images (43).jpg',
+test_image = image.load_img('.../dataset/images (43).jpg',
                           target_size=(64,64))
 test_image=image.img_to_array(test_image)
 test_image=np.expand_dims(test_image, axis=0)
