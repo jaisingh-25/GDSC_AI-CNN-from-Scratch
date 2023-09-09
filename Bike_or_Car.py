@@ -1,5 +1,3 @@
-# Created by Jai_RA2212701010011
-
 # Importing modules
 from keras.models import Sequential
 from keras.layers import Conv2D
