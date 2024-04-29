@@ -1,4 +1,4 @@
-# Importing modules
+
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPooling2D
